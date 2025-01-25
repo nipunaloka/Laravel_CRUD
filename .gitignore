@@ -1,0 +1,46 @@
+# Laravel-specific files and directories
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+.phpunit.result.cache
+.phpunit.cache
+
+# Build files
+/public/build
+/public/hot
+
+# Environment files
+.env
+.env.*
+.env.backup
+
+# IDE and editor-specific files
+/.idea/
+/.vscode/
+/nova/
+/.fleet/
+/.zed
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debug and log files
+npm-debug.log*
+yarn-error.log*
+auth.json
+
+# Homestead and Vagrant-specific files
+Homestead.json
+Homestead.yaml
+
+# Composer cache
+composer.lock
+
+# Miscellaneous
+/.phpactor.json
